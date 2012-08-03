@@ -8,4 +8,4 @@
 
 ## Screenshot
 
-![CSS](https://img.skitch.com/20120803-mhg3f25m899nfxwbxebxgxaej5.jpg)
+![CSS](https://img.skitch.com/20120803-dgigctsig63njc2ee65y7tr5mq.jpg)
