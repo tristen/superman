@@ -1,6 +1,6 @@
 ###A gui and console theme for vim.
 
-# Installation
+## Installation
 
 * Copy superman.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows)
 * Test it by typing ':highlight superman'
