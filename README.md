@@ -6,6 +6,7 @@
 * Test it by typing `:colorscheme superman`
 * If you like it, add `colorscheme superman` in your vimrc file.
 
-## Screenshot
+## Screenshots
 
-![CSS](https://img.skitch.com/20120803-dgigctsig63njc2ee65y7tr5mq.jpg)
+### CSS
+![CSS](https://img.skitch.com/20120804-xkdc9f79i59tsq6rgncpkiq1u3.jpg)
