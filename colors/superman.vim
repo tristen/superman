@@ -1,4 +1,4 @@
-" Vim color file
+" Vim color scheme
 "
 " Author: tristen <@fallsemo>
 
