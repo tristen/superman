@@ -9,8 +9,7 @@
 ## Screenshots
 
 ### CSS
-![CSS](https://img.skitch.com/20120804-xkdc9f79i59tsq6rgncpkiq1u3.jpg)
-
+![CSS](screenshots/css.png)
 
 ### JavaScript
-![JavaScript](https://img.skitch.com/20120804-r49qh8myxy2fp253nbjtr2rqf5.jpg)
+![JavaScript](screenshots/js.png)
