@@ -13,3 +13,6 @@
 
 ### JavaScript
 ![JavaScript](https://raw.github.com/tristen/superman/master/screenshots/js.png)
+
+## Licence
+MIT
