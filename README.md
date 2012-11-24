@@ -9,7 +9,10 @@
 ## Screenshots
 
 ### CSS
-![CSS](screenshots/css.png)
+![CSS](https://raw.github.com/tristen/superman/master/screenshots/css.png)
 
 ### JavaScript
-![JavaScript](screenshots/js.png)
+![JavaScript](https://raw.github.com/tristen/superman/master/screenshots/js.png)
+
+## Licence
+MIT
