@@ -176,20 +176,21 @@ hi link rubySharpBang           Normal
 hi link rubyControl             Comment
 
 " Javascript
-hi link javaScriptNumber        Boolean
-hi link javaScriptRegexpString  Boolean
-hi link javaScriptPrototype     Type        " prototype
-hi link javaScriptType          Type        " const undefined void yield
-hi link javaScriptIdentifier    Identifier  " var this
-hi link javaScriptLabel         Label       " length
-hi link javaScriptGlobalObjects Class
-hi link javaScriptFunction      Statement
-hi link javaScriptSource        Statement   " import export
-hi link javaScriptOperator      Statement   " delete new in instanceof let typeof
-hi link javaScriptBoolean       Statement   " true false
-hi link javaScriptNull          Statement   " null
-hi link javaScriptConditional   Statement   " if else
-hi link javaScriptRepeat        Statement   " do while for
-hi link javaScriptBranch        Statement   " break continue switch case default return
-hi link javaScriptStatement     Statement   " try catch throw with finally
-hi link javascriptEnvComment    Comment     " executable
+hi link jsNumber        Boolean
+hi link jsRegexpString  Boolean
+hi link jsPrototype     Type        " prototype
+hi link jsType          Type        " const undefined void yield
+hi link jsIdentifier    Identifier  " var this
+hi link jsLabel         Label       " length
+hi link jsGlobalObjects Class
+hi link jsFunction      Statement
+hi link jsSource        Statement   " import export
+hi link jsOperator      Statement   " delete new in instanceof let typeof
+hi link jsBoolean       Statement   " true false
+hi link jsNull          Statement   " null
+hi link jsConditional   Statement   " if else
+hi link jsRepeat        Statement   " do while for
+hi link jsBranch        Statement   " break continue switch case default return
+hi link jsStatement     Statement   " try catch throw with finally
+hi link jsEnvComment    Comment     " executable
+
