@@ -1,15 +1,15 @@
-A vim & console theme
----
-
-![CSS](https://raw.github.com/tristen/superman/master/screenshots/css.png)
-![JavaScript](https://raw.github.com/tristen/superman/master/screenshots/js.png)
+![Preview](https://raw.github.com/tristen/superman/main/preview.png)
 
 ### Installation
 
-* Copy superman.vim into ~/.vim/colors/ (Unix) or vimfiles/colors/ (Windows)
-* Test it by typing `:colorscheme superman`
-* If you like it, add `colorscheme superman` in your vimrc file.
+#### Vim
 
-### Licence
+1. Copy `superman.vim` into `~/.vim/colors/` (Unix) or `vimfiles/colors/` (Windows).
+1. Preview by typing `:colorscheme superman`.
+1. Add `colorscheme superman` to your `.vimrc` file.
 
-MIT
+#### Helix
+
+1. Copy `superman.toml` into `~/.config/helix/themes`.
+1. Preview by typing `:theme superman`.
+1. Add `theme = "superman"` to your `~/.config/helix/config.toml` file.

@@ -1,6 +1,5 @@
-" Vim color scheme
-"
-" Author: tristen <@fallsemo>
+" Superman theme for Vim
+" Author : Tristen Brown <tristen.brown@gmail.com>
 
 set background=dark
 hi clear

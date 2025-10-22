@@ -1,0 +1,143 @@
+# Superman theme for Helix
+# Author : Tristen Brown <tristen.brown@gmail.com>
+
+# UI Elements
+"ui.background" = { bg = "dark" }
+"ui.text" = { fg = "light-grey" }
+"ui.text.focus" = { fg = "light" }
+"ui.window" = { bg = "dark" }
+"ui.gutter" = { bg = "dark" }
+"ui.linenr" = { fg = "line-number" }
+"ui.linenr.selected" = { fg = "light-grey", modifiers = ["bold"] }
+
+"ui.cursor" = { fg = "light", bg = "dark", modifiers = ["reversed"] }
+"ui.cursor.normal" = { fg = "light", bg = "dark", modifiers = ["reversed"] }
+"ui.cursor.insert" = { fg = "light", bg = "dark", modifiers = ["reversed"] }
+"ui.cursor.select" = { fg = "light", bg = "dark", modifiers = ["reversed"] }
+"ui.cursor.match" = { fg = "light-yellow", modifiers = ["underlined"] }
+"ui.cursorline.primary" = { bg = "cursorline" }
+
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+
+"ui.statusline" = { fg = "status-fg", bg = "status-bg" }
+"ui.statusline.inactive" = { fg = "status-fg", bg = "dark" }
+"ui.statusline.normal" = { fg = "status-fg", bg = "status-bg" }
+"ui.statusline.insert" = { fg = "dark", bg = "green", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "dark", bg = "light-blue", modifiers = ["bold"] }
+
+"ui.menu" = { fg = "light-grey", bg = "status-bg" }
+"ui.menu.selected" = { fg = "light", bg = "selection" }
+"ui.menu.scroll" = { fg = "light-grey", bg = "status-bg" }
+
+"ui.popup" = { fg = "light-grey", bg = "status-bg" }
+"ui.popup.info" = { fg = "light-grey", bg = "status-bg" }
+"ui.help" = { fg = "light-grey", bg = "status-bg" }
+
+"ui.virtual.whitespace" = { fg = "greyblue" }
+"ui.virtual.ruler" = { bg = "cursorline" }
+"ui.virtual.indent-guide" = { fg = "line-number" }
+"ui.virtual.inlay-hint" = { fg = "greyblue" }
+
+# Search
+"ui.highlight" = { bg = "search-bg" }
+
+# Diagnostics
+"error" = { fg = "light-brick", modifiers = ["bold"] }
+"warning" = { fg = "light-yellow" }
+"info" = { fg = "light-blue" }
+"hint" = { fg = "greyblue" }
+
+"diagnostic.error" = { underline = { color = "light-brick", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "light-yellow", style = "curl" } }
+"diagnostic.info" = { underline = { color = "light-blue", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "greyblue", style = "curl" } }
+
+# Syntax Highlighting
+"attribute" = { fg = "green" }
+"type" = { fg = "blue" }
+"type.builtin" = { fg = "blue" }
+"constructor" = { fg = "blue" }
+"constant" = { fg = "light-blue" }
+"constant.builtin" = { fg = "light-blue" }
+"constant.builtin.boolean" = { fg = "light-blue" }
+"constant.character" = { fg = "light-yellow" }
+"constant.character.escape" = { fg = "light-blue" }
+"constant.numeric" = { fg = "light-blue" }
+"string" = { fg = "light-yellow" }
+"string.regexp" = { fg = "light-blue" }
+"string.special" = { fg = "light-blue" }
+"comment" = { fg = "greyblue", modifiers = ["italic"] }
+"variable" = { fg = "light-grey" }
+"variable.builtin" = { fg = "light-blue" }
+"variable.parameter" = { fg = "light-grey" }
+"variable.other.member" = { fg = "light-grey" }
+"label" = { fg = "dark-yellow" }
+"punctuation" = { fg = "light-grey" }
+"punctuation.delimiter" = { fg = "light-grey" }
+"punctuation.bracket" = { fg = "light-grey" }
+"keyword" = { fg = "dark-brick", modifiers = ["bold"] }
+"keyword.control" = { fg = "dark-brick", modifiers = ["bold"] }
+"keyword.control.conditional" = { fg = "light-brick", modifiers = ["bold"] }
+"keyword.control.repeat" = { fg = "light-brick", modifiers = ["bold"] }
+"keyword.control.import" = { fg = "dark-brick", modifiers = ["bold"] }
+"keyword.control.return" = { fg = "dark-brick", modifiers = ["bold"] }
+"keyword.control.exception" = { fg = "light-brick", modifiers = ["bold"] }
+"keyword.operator" = { fg = "light-brick" }
+"keyword.directive" = { fg = "light-blue" }
+"keyword.function" = { fg = "dark-brick" }
+"keyword.storage" = { fg = "dark-yellow" }
+"keyword.storage.type" = { fg = "dark-yellow" }
+"keyword.storage.modifier" = { fg = "dark-yellow" }
+"operator" = { fg = "light-brick" }
+"function" = { fg = "green" }
+"function.builtin" = { fg = "green" }
+"function.macro" = { fg = "light-blue" }
+"function.special" = { fg = "green" }
+"tag" = { fg = "dark-brick" }
+"namespace" = { fg = "blue" }
+"special" = { fg = "blue" }
+
+# Markup (Markdown, etc.)
+"markup.heading" = { fg = "blue", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "greyblue" }
+"markup.list" = { fg = "light-brick" }
+"markup.list.unnumbered" = { fg = "light-brick" }
+"markup.list.numbered" = { fg = "light-brick" }
+"markup.bold" = { modifiers = ["bold"] }
+"markup.italic" = { modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link" = { fg = "light-blue", modifiers = ["underlined"] }
+"markup.link.url" = { fg = "light-blue", modifiers = ["underlined"] }
+"markup.link.text" = { fg = "light-yellow" }
+"markup.quote" = { fg = "greyblue", modifiers = ["italic"] }
+"markup.raw" = { fg = "light-yellow" }
+"markup.raw.inline" = { fg = "light-yellow" }
+"markup.raw.block" = { fg = "light-yellow" }
+
+# Diff
+"diff.plus" = { fg = "green" }
+"diff.minus" = { fg = "light-brick" }
+"diff.delta" = { fg = "light-blue" }
+
+# Git
+"git.delta.moved" = { fg = "light-blue" }
+
+[palette]
+dark = "#121212"
+light = "#F8F8F0"
+light-grey = "#93A1A1"
+line-number = "#303030"
+cursorline = "#1A1A1A"
+selection = "#465457"
+status-fg = "#808080"
+status-bg = "#1C1C1C"
+search-bg = "#455354"
+light-blue = "#4BC7F4"
+light-yellow = "#C1DA86"
+dark-yellow = "#9DA81D"
+light-brick = "#FF9E80"
+dark-brick = "#EE6E47"
+green = "#93C05E"
+greyblue = "#5F6C6F"
+blue = "#338EB3"
